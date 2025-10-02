@@ -14,6 +14,12 @@ cask "hive-consensus" do
 
   app "Hive Consensus.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Hive Consensus.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/Hive Consensus",
     "~/Library/Preferences/com.hivetechs.hive-consensus.plist",
