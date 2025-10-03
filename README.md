@@ -45,5 +45,4 @@ brew uninstall --cask hive-consensus
 
 ## Support
 
-- App features, runtime, or UI issues: https://github.com/hivetechs-collective/Hive/issues
 - Packaging/Cask install or update issues: https://github.com/hivetechs-collective/homebrew-tap/issues
