@@ -9,7 +9,7 @@ Official Homebrew tap for [Hive Consensus](https://github.com/hivetechs-collecti
 brew tap hivetechs-collective/tap
 
 # Install Hive Consensus
-brew install --cask hive-consensus
+brew install --cask hivetechs-collective/tap/hive-consensus
 ```
 
 ## One-line Installation
@@ -32,10 +32,11 @@ brew uninstall --cask hive-consensus
 
 ## Features
 
-- **No Apple Developer ID required** - Uses ad-hoc signing
-- **No quarantine issues** - Homebrew installs are trusted by default
-- **Automatic updates** - `brew upgrade` keeps you current
-- **TTYD terminal support** - Full localhost binding works perfectly
+- **Signed & Notarized** by Apple (Developer ID Application)
+- **Gatekeeper‑friendly** installs via Homebrew Cask (no xattr workarounds)
+- **Verified downloads** (SHA256) through Homebrew
+- **Easy updates** with `brew upgrade --cask hive-consensus`
+- **Apple Silicon (arm64)** support on macOS 11+
 
 ## Requirements
 
