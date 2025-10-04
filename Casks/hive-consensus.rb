@@ -1,6 +1,6 @@
 cask "hive-consensus" do
-  version "1.8.516"
-  sha256 "cd93ab67aadfd7a0b866369f5845431864c52cf11abc6c7e01feb5e4ffb5491a"
+  version "1.8.518"
+  sha256 "2655be4e6b5dd322b9e1e9c385cbef62986d7069d00ae58f15d5b7d4d70bd4a9"
 
   url "https://github.com/hivetechs-collective/Hive/releases/download/v#{version}/Hive.Consensus.dmg"
   name "Hive Consensus"
