@@ -1,8 +1,8 @@
 cask "hive-consensus" do
-  version "1.8.518"
-  sha256 "2655be4e6b5dd322b9e1e9c385cbef62986d7069d00ae58f15d5b7d4d70bd4a9"
+  version "1.8.522"
+  sha256 "8e0f980c65fae87da51ffe5177dc78f8b953563d1559a24f2669b61677a4e805"
 
-  url "https://github.com/hivetechs-collective/Hive/releases/download/v#{version}/Hive.Consensus.dmg"
+  url "https://github.com/hivetechs-collective/Hive/releases/download/v#{version}/Hive.Consensus-darwin-universal-#{version}.dmg"
   name "Hive Consensus"
   desc "AI-powered development environment with integrated terminals and consensus engine"
   homepage "https://github.com/hivetechs-collective/Hive"
