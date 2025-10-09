@@ -2,10 +2,10 @@ cask "hive-consensus" do
   version "1.8.528"
   sha256 "15dd7fc29942bcb2636e4e03db2b1b6d3ec6995cc353b0199164b2fa78d332d8"
 
-  url "https://github.com/hivetechs-collective/Hive/releases/download/v#{version}/Hive.Consensus-darwin-universal-#{version}.dmg"
+  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}/Hive.Consensus-darwin-universal-#{version}.dmg"
   name "Hive Consensus"
   desc "AI-powered development environment with integrated terminals and consensus engine"
-  homepage "https://github.com/hivetechs-collective/Hive"
+  homepage "https://github.com/hivetechs-collective/homebrew-tap"
 
   livecheck do
     url :url
