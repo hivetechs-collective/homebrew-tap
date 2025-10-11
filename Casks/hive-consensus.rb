@@ -1,10 +1,10 @@
 cask "hive-consensus" do
-  version "1.8.528"
-  sha256 "15dd7fc29942bcb2636e4e03db2b1b6d3ec6995cc353b0199164b2fa78d332d8"
+  version "1.8.529"
+  sha256 "b04e73ce2f16f40035be02d4ee02aa957103466ac1c703f7ff973b44c6b64fc9"
 
-  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}/Hive.Consensus-darwin-universal-#{version}.dmg"
+  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus"
-  desc "AI-powered development environment with integrated terminals and consensus engine"
+  desc "AI development environment with integrated terminals and consensus"
   homepage "https://github.com/hivetechs-collective/homebrew-tap"
 
   livecheck do
@@ -22,8 +22,8 @@ cask "hive-consensus" do
 
   zap trash: [
     "~/Library/Application Support/Hive Consensus",
+    "~/Library/Logs/Hive Consensus",
     "~/Library/Preferences/com.hivetechs.hive-consensus.plist",
     "~/Library/Saved Application State/com.hivetechs.hive-consensus.savedState",
-    "~/Library/Logs/Hive Consensus",
   ]
 end
