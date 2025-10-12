@@ -1,6 +1,6 @@
 cask "hive-consensus" do
-  version "1.8.537"
-  sha256 "8da4e9171ca95280e3dc9e8752228410564f50db9e739fc678772579b22e0e85"
+  version "1.8.538"
+  sha256 "f086984e1b94e80024472f4b94d71b54963f76a44de5074095cf3be036e77e97"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus"
@@ -11,6 +11,8 @@ cask "hive-consensus" do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: ">= :big_sur"
 
   app "Hive Consensus.app"
 
