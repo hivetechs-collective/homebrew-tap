@@ -43,6 +43,19 @@ brew uninstall --cask hive-consensus
 - macOS 11.0 or later
 - Homebrew 4.0 or later
 
+## License
+
+**Homebrew Tap (This Repository)**: MIT License
+- This repository (cask formulas and scripts) is open source under MIT License
+- See [LICENSE](LICENSE) for details
+
+**Hive Consensus Software**: Proprietary License
+- The application installed by this tap is proprietary software
+- Requires active subscription for use
+- See https://hivetechs.io/terms for software license terms
+
 ## Support
 
-- Packaging/Cask install or update issues: https://github.com/hivetechs-collective/homebrew-tap/issues
+- **Homebrew tap issues**: https://github.com/hivetechs-collective/homebrew-tap/issues
+- **Product support**: support@hivetechs.io
+- **Website**: https://hivetechs.io

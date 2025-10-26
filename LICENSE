@@ -1,0 +1,50 @@
+MIT License (Homebrew Cask Formulas Only)
+
+Copyright (c) 2025 HiveTechs Collective LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this Homebrew tap repository (cask formulas, installation scripts, and
+related configuration files), to deal in the repository without restriction,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the repository, and to permit
+persons to whom the repository is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the repository.
+
+THE REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE REPOSITORY OR THE USE OR OTHER DEALINGS IN
+THE REPOSITORY.
+
+================================================================================
+IMPORTANT NOTICE REGARDING HIVE CONSENSUS SOFTWARE
+================================================================================
+
+This license ONLY applies to the Homebrew tap repository contents (cask
+formulas, scripts, and configuration files).
+
+The "Hive Consensus" software application that is INSTALLED by these formulas
+is PROPRIETARY SOFTWARE owned by HiveTechs Collective LLC and is subject to
+a separate commercial license.
+
+HIVE CONSENSUS SOFTWARE LICENSE:
+- Proprietary and closed-source
+- Requires paid subscription for use
+- Protected by copyright law
+- See: https://hivetechs.io/terms
+
+By installing Hive Consensus via this Homebrew tap, you agree to the Hive
+Consensus software license terms.
+
+For questions about:
+- Homebrew tap/formulas:  Open an issue at github.com/hivetechs-collective/homebrew-tap
+- Hive Consensus license: legal@hivetechs.io
+- Sales/subscriptions:    sales@hivetechs.io
+- Technical support:      support@hivetechs.io
+
+Website: https://hivetechs.io
