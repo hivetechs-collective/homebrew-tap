@@ -4,30 +4,56 @@ Official Homebrew tap for [Hive Consensus](https://github.com/hivetechs-collecti
 
 ## Installation
 
-```bash
-# Add tap
-brew tap hivetechs-collective/tap
+### Stable Release (Recommended)
 
-# Install Hive Consensus
+```bash
+# One-line installation
 brew install --cask hivetechs-collective/tap/hive-consensus
 ```
 
-## One-line Installation
+### Beta Release (Testing New Features)
 
 ```bash
-brew install --cask hivetechs-collective/tap/hive-consensus
+# Install beta channel for early access to new features
+brew install --cask hivetechs-collective/tap/hive-consensus-beta
+```
+
+**Note**: Beta releases may contain bugs and are updated more frequently than stable releases. Cannot be installed alongside the stable version.
+
+## Switching Between Stable and Beta
+
+### Switch from Stable to Beta
+
+```bash
+brew uninstall --cask hive-consensus
+brew install --cask hive-consensus-beta
+```
+
+### Switch from Beta to Stable
+
+```bash
+brew uninstall --cask hive-consensus-beta
+brew install --cask hive-consensus
 ```
 
 ## Update
 
 ```bash
+# Update stable release
 brew upgrade --cask hive-consensus
+
+# Update beta release
+brew upgrade --cask hive-consensus-beta
 ```
 
 ## Uninstall
 
 ```bash
+# Uninstall stable release
 brew uninstall --cask hive-consensus
+
+# Uninstall beta release
+brew uninstall --cask hive-consensus-beta
 ```
 
 ## Features
@@ -42,6 +68,21 @@ brew uninstall --cask hive-consensus
 
 - macOS 11.0 or later
 - Homebrew 4.0 or later
+
+## Beta Channel
+
+The beta channel provides early access to new features before they reach stable release:
+
+- **More frequent updates**: New features released as they're completed
+- **Early access**: Test cutting-edge features before general availability
+- **Community testing**: Help improve Hive Consensus by reporting issues
+- **Same quality**: All beta releases are signed, notarized, and pass quality gates
+
+**Current beta version**: Check [Releases](https://github.com/hivetechs-collective/homebrew-tap/releases) for latest beta
+
+**Feedback**: Report issues or suggestions at https://github.com/hivetechs-collective/homebrew-tap/issues
+
+**Note**: Beta releases are production-ready but may contain new features still being refined based on user feedback.
 
 ## License
 

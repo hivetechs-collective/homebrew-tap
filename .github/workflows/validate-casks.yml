@@ -1,0 +1,46 @@
+name: Validate Casks
+
+on:
+  pull_request:
+    paths:
+      - 'Casks/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'Casks/**'
+
+jobs:
+  validate:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        cask:
+          - hive-consensus
+          - hive-consensus-beta
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Validate cask syntax
+        run: |
+          brew audit --cask --strict Casks/${{ matrix.cask }}.rb
+
+      - name: Check cask style
+        run: |
+          brew style Casks/${{ matrix.cask }}.rb
+
+      - name: Verify cask can be parsed
+        run: |
+          brew info --cask Casks/${{ matrix.cask }}.rb
+
+      - name: Summary
+        run: |
+          echo "✅ Cask ${{ matrix.cask }} validation passed"
+          echo ""
+          echo "Version: $(brew info --cask Casks/${{ matrix.cask }}.rb | grep -m1 ".*:" | cut -d: -f2 | xargs)"

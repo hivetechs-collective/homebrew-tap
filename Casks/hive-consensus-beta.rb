@@ -4,7 +4,7 @@ cask "hive-consensus-beta" do
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
-  desc "AI development environment with integrated terminals and consensus (Beta Testing)"
+  desc "AI development environment with integrated terminals (Beta Testing)"
   homepage "https://github.com/hivetechs-collective/homebrew-tap"
 
   # Beta releases don't use livecheck
@@ -12,10 +12,9 @@ cask "hive-consensus-beta" do
     skip "Beta releases require manual updates"
   end
 
-  depends_on macos: ">= :big_sur"
-
   # Conflicts with stable version - uninstall stable before installing beta
   conflicts_with cask: "hive-consensus"
+  depends_on macos: ">= :big_sur"
 
   app "Hive Consensus.app"
 
