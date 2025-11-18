@@ -78,6 +78,11 @@ The beta channel provides early access to new features before they reach stable 
 - **Community testing**: Help improve Hive Consensus by reporting issues
 - **Same quality**: All beta releases are signed, notarized, and pass quality gates
 
+**How to verify you're running beta**:
+- Check **Hive Consensus > About Hive Consensus** (menu bar)
+- Check **Help > About** (in-app menu)
+- Both will show: `Version: 1.8.692 (Beta)` with 🧪 indicator
+
 **Current beta version**: Check [Releases](https://github.com/hivetechs-collective/homebrew-tap/releases) for latest beta
 
 **Feedback**: Report issues or suggestions at https://github.com/hivetechs-collective/homebrew-tap/issues
