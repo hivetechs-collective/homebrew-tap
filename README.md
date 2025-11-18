@@ -8,14 +8,14 @@ Official Homebrew tap for [Hive Consensus](https://github.com/hivetechs-collecti
 
 ```bash
 # One-line installation
-brew install --cask hivetechs-collective/tap/hive-consensus
+brew install --cask hivetechs/tap/hive-consensus
 ```
 
 ### Beta Release (Testing New Features)
 
 ```bash
 # Install beta channel for early access to new features
-brew install --cask hivetechs-collective/tap/hive-consensus-beta
+brew install --cask hivetechs/tap/hive-consensus-beta
 ```
 
 **Note**: Beta releases may contain bugs and are updated more frequently than stable releases. Cannot be installed alongside the stable version.
@@ -123,6 +123,28 @@ Hive Consensus is available globally with full compliance for:
 - UK GDPR compliant (UK users)
 - CCPA compliant (California users)
 - Privacy contact: privacy@hivetechs.io
+
+---
+
+## Troubleshooting
+
+### Duplicate Tap Error
+
+If you see: `Error: Cask hive-consensus exists in multiple taps`, you have the tap registered under two names.
+
+**Fix**:
+```bash
+# 1. Uninstall using the fully-qualified name
+brew uninstall --cask hivetechs-collective/tap/hive-consensus
+
+# 2. Remove the duplicate tap
+brew untap hivetechs-collective/tap
+
+# 3. Reinstall using the correct short name
+brew install --cask hivetechs/tap/hive-consensus-beta
+```
+
+The correct tap name is `hivetechs/tap` (short form).
 
 ---
 
