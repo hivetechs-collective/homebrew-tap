@@ -1,6 +1,6 @@
 cask "hive-consensus-beta" do
-  version "1.8.692"
-  sha256 "0b24f024083e2c42ce6929863a1da85691d1e6ef7b8c98709dbcf14eb0565c23"
+  version "1.8.693"
+  sha256 "3f1081de71ef51d9bf673d4aeda7625802b21c0dc1cce0f0c69d1bd3c5181a7a"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
@@ -35,7 +35,14 @@ cask "hive-consensus-beta" do
     🧪 This is a BETA release for testing new features.
 
     Features in this beta:
-    - Service status monitoring for Cloudflare/OpenRouter outages
+    - Updated What's New panel with detailed v1.8.692 release notes
+    - Beta indicators in both About dialogs (native macOS + Help > About)
+    - Improved beta messaging and detection
+
+    Testing checklist:
+    - Help > What's New - Shows detailed release notes
+    - Hive Consensus > About - Shows "Version: 1.8.693 (Beta)"
+    - Help > About - Shows "🧪 Beta Release" indicator
 
     To report issues or provide feedback:
     https://github.com/hivetechs-collective/homebrew-tap/issues
