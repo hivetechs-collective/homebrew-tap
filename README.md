@@ -8,14 +8,14 @@ Official Homebrew tap for [Hive Consensus](https://github.com/hivetechs-collecti
 
 ```bash
 # One-line installation
-brew install --cask hivetechs/tap/hive-consensus
+brew install --cask hivetechs-collective/tap/hive-consensus
 ```
 
 ### Beta Release (Testing New Features)
 
 ```bash
 # Install beta channel for early access to new features
-brew install --cask hivetechs/tap/hive-consensus-beta
+brew install --cask hivetechs-collective/tap/hive-consensus-beta
 ```
 
 **Note**: Beta releases may contain bugs and are updated more frequently than stable releases. Cannot be installed alongside the stable version.
