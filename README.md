@@ -26,14 +26,14 @@ brew install --cask hivetechs-collective/tap/hive-consensus-beta
 
 ```bash
 brew uninstall --cask hive-consensus
-brew install --cask hive-consensus-beta
+brew install --cask hivetechs-collective/tap/hive-consensus-beta
 ```
 
 ### Switch from Beta to Stable
 
 ```bash
 brew uninstall --cask hive-consensus-beta
-brew install --cask hive-consensus
+brew install --cask hivetechs-collective/tap/hive-consensus
 ```
 
 ## Update
