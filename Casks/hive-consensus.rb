@@ -1,6 +1,6 @@
 cask "hive-consensus" do
-  version "1.8.699"
-  sha256 "00e2f2b971268dd47c684869e1923d2d667639c5688f184f6294c442ed37a9ee"
+  version "1.8.700"
+  sha256 "f54f3cc530b100637a79161411aee47a42ea0baf8c61e62d095ac104be006f5e"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus"
