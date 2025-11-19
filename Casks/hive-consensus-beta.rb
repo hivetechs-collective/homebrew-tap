@@ -1,8 +1,8 @@
 cask "hive-consensus-beta" do
-  version "1.8.694"
-  sha256 "5cfb5cabff08a5f23bbc79dc5ce9ee9c1cd98027fa6c11b11b147137d843dc4f"
+  version "1.8.695"
+  sha256 "30433e2424356ee39b52abeb131baf7bc5238f51fd35989ab61b38713cdc65e8"
 
-  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
+  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}-beta.dmg"
   name "Hive Consensus Beta"
   desc "AI development environment with integrated terminals (Beta Testing)"
   homepage "https://github.com/hivetechs-collective/homebrew-tap"
