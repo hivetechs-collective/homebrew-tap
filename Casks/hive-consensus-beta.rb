@@ -1,8 +1,8 @@
 cask "hive-consensus-beta" do
-  version "1.8.706"
-  sha256 "d788973eae696776404678fe9c2fe7db5ca140caf1cbdd90f3a9a5ad6e4ad938"
+  version "1.8.707"
+  sha256 "967a630f1a56ca2dd67118979faa939a9f595e4148245e7320f649bff442d741"
 
-  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}-beta.dmg"
+  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
   desc "AI development environment with integrated terminals (Beta Testing)"
   homepage "https://github.com/hivetechs-collective/homebrew-tap"
@@ -32,22 +32,33 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 This is a BETA release for testing new features.
+    🧪 BETA v1.8.707 - OpenRouter API Key Fix
+
+    FIXED in this beta:
+    - ✅ OpenRouter API key retrieval using SafeStorageService
+    - ✅ Proper encrypted keychain access for API credentials
+    - ✅ Resolves "No API key configured" errors on launch
 
     Features in this beta:
-    - Updated What's New panel with detailed v1.8.692 release notes
-    - Beta indicators in both About dialogs (native macOS + Help > About)
-    - Improved beta messaging and detection
+    - 🌐 OpenRouter PTY Terminal - Access 500+ AI models
+    - 🔀 Model switching mid-conversation
+    - 💰 Real-time cost tracking and token counting
+    - 🔍 Fuzzy search across all OpenRouter models
+    - 📊 Streaming responses in terminal
+    - 🎯 Activity bar integration (purple router icon)
 
-    Testing checklist:
-    - Help > What's New - Shows detailed release notes
-    - Hive Consensus > About - Shows "Version: 1.8.693 (Beta)"
-    - Help > About - Shows "🧪 Beta Release" indicator
+    How to test OpenRouter:
+    1. Click the purple router icon in the activity bar
+    2. Configure your OpenRouter API key (one-time setup)
+    3. Select a model from the terminal prompt
+    4. Start chatting with any of 500+ AI models
+    5. Use /models to switch models anytime
+    6. Use /help to see all commands
 
     To report issues or provide feedback:
     https://github.com/hivetechs-collective/homebrew-tap/issues
 
-    To switch back to stable:
+    To switch back to stable (v1.8.705):
       brew uninstall --cask hive-consensus-beta
       brew install --cask hive-consensus
   EOS
