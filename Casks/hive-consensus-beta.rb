@@ -1,6 +1,6 @@
 cask "hive-consensus-beta" do
-  version "1.8.707"
-  sha256 "967a630f1a56ca2dd67118979faa939a9f595e4148245e7320f649bff442d741"
+  version "1.8.708"
+  sha256 "1a26e4edc87c1c42a016354e5834f2225ece184258b9f0c170d478d59d1dfacf"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
@@ -32,7 +32,7 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA v1.8.707 - OpenRouter API Key Fix
+    🧪 BETA v1.8.708 - OpenRouter API Key Fix
 
     FIXED in this beta:
     - ✅ OpenRouter API key retrieval using SafeStorageService
