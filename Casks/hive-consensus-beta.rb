@@ -32,34 +32,28 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA v1.8.708 - OpenRouter API Key Fix
+    🧪 BETA RELEASE - Early Access Features
 
-    FIXED in this beta:
-    - ✅ OpenRouter API key retrieval using SafeStorageService
-    - ✅ Proper encrypted keychain access for API credentials
-    - ✅ Resolves "No API key configured" errors on launch
+    You're using the beta channel for Hive Consensus. This version includes:
+    - Latest features before stable release
+    - Droid-style tool call formatting
+    - Enhanced HiveTechs CLI with 342 AI models
+    - Industry-standard input UX improvements
 
-    Features in this beta:
-    - 🌐 OpenRouter PTY Terminal - Access 500+ AI models
-    - 🔀 Model switching mid-conversation
-    - 💰 Real-time cost tracking and token counting
-    - 🔍 Fuzzy search across all OpenRouter models
-    - 📊 Streaming responses in terminal
-    - 🎯 Activity bar integration (purple router icon)
+    All beta releases pass the same 9 quality gates as stable releases.
 
-    How to test OpenRouter:
-    1. Click the purple router icon in the activity bar
-    2. Configure your OpenRouter API key (one-time setup)
-    3. Select a model from the terminal prompt
-    4. Start chatting with any of 500+ AI models
-    5. Use /models to switch models anytime
-    6. Use /help to see all commands
+    HiveTechs CLI (Animated Bee Icon):
+    - Access 342+ AI models via OpenRouter
+    - Real-time cost tracking and streaming responses
+    - Type /help for all commands
+    - Type /models to switch models anytime
 
     To report issues or provide feedback:
     https://github.com/hivetechs-collective/homebrew-tap/issues
 
-    To switch back to stable (v1.8.705):
+    To switch to stable channel:
       brew uninstall --cask hive-consensus-beta
-      brew install --cask hive-consensus
+      (brew untap hivetechs-collective/tap 2>/dev/null; brew tap hivetechs-collective/tap)
+      brew install --cask hivetechs-collective/tap/hive-consensus --force
   EOS
 end
