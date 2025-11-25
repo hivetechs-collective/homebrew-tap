@@ -1,6 +1,6 @@
 cask "hive-consensus-beta" do
   version "1.8.757"
-  sha256 "dd9fdae979b92d20c247f360a9a680d1a9b89bb23398f0921862687ea616faab"
+  sha256 "5f81f618c4bd3dba06cf40805a0fe824905fd899a6973cb2f265f138d23319ab"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
@@ -32,13 +32,14 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA RELEASE - Early Access Features
+    🧪 BETA RELEASE - Progressive Onboarding (v1.8.757)
 
     You're using the beta channel for Hive Consensus. This version includes:
-    - Latest features before stable release
-    - Droid-style tool call formatting
-    - Enhanced HiveTechs CLI with 342 AI models
-    - Industry-standard input UX improvements
+    - NEW: Non-blocking progressive onboarding banner (replaces wizard)
+    - NEW: Simplified setup - only 2 fields (name + directory)
+    - NEW: IDE tour is now opt-in via Help menu
+    - FIX: Resolved crash loop issues from blocking startup UIs
+    - Enhanced HiveTechs CLI with 342+ AI models
 
     All beta releases pass the same 9 quality gates as stable releases.
 
