@@ -1,8 +1,8 @@
 cask "hive-consensus-beta" do
-  version "1.8.783"
-  sha256 "0f64b795d479bbd7a54532f9065c2755f2b9fbbaebc15cbfea6b1de9b8c4b119"
+  version "1.8.784"
+  sha256 "c1702a78e063768510ce5bc2468d4b6b41fcb9e3bf47a9657f03e0c59bc8063b"
 
-  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
+  url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}-beta.dmg"
   name "Hive Consensus Beta"
   desc "AI development environment with integrated terminals (Beta Testing)"
   homepage "https://github.com/hivetechs-collective/homebrew-tap"
@@ -32,14 +32,14 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA RELEASE - Progressive Onboarding (v1.8.757)
+    🧪 BETA RELEASE - Custom Profiles (v1.8.784)
 
     You're using the beta channel for Hive Consensus. This version includes:
-    - NEW: Non-blocking progressive onboarding banner (replaces wizard)
-    - NEW: Simplified setup - only 2 fields (name + directory)
-    - NEW: IDE tour is now opt-in via Help menu
-    - FIX: Resolved crash loop issues from blocking startup UIs
+    - NEW: Custom Profiles for personalized AI interactions
+    - NEW: Profile-specific system prompts and configurations
+    - NEW: Easy profile switching via Settings panel
     - Enhanced HiveTechs CLI with 342+ AI models
+    - Progressive onboarding with simplified setup
 
     All beta releases pass the same 9 quality gates as stable releases.
 
