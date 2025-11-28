@@ -1,6 +1,6 @@
 cask "hive-consensus-beta" do
-  version "1.8.790"
-  sha256 "78ea4b902b9a46bcdd58331165f8616a652ded63e179e0a0431a73e0f6cf5247"
+  version "1.8.789"
+  sha256 "f60875f573b7165220cd59c77e1d98bc9455565c93f81bc81da4226bb564f724"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
@@ -32,14 +32,15 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA RELEASE - Custom Profiles (v1.8.784)
+    🧪 BETA RELEASE - Benchmark & Profile Fixes (v1.8.789)
 
     You're using the beta channel for Hive Consensus. This version includes:
-    - NEW: Custom Profiles for personalized AI interactions
-    - NEW: Profile-specific system prompts and configurations
-    - NEW: Easy profile switching via Settings panel
+    - FIX: Benchmark fetchers with verified working URLs
+    - FIX: Cold-start cache invalidation and model diversity
+    - FIX: Gemini 3 Pro model ID for OpenRouter catalog
+    - FIX: INSERT OR REPLACE for fresh user profile creation
+    - Custom Profiles for personalized AI interactions
     - Enhanced HiveTechs CLI with 342+ AI models
-    - Progressive onboarding with simplified setup
 
     All beta releases pass the same 9 quality gates as stable releases.
 
