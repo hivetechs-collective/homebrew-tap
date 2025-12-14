@@ -1,6 +1,6 @@
 cask "hive-consensus-beta" do
   version "1.8.821"
-  sha256 "ee983d2119ea734cfe3fb4a2fde4f876707b697429e863316107e9b156562283"
+  sha256 "6031bc8e46945766f8396e891ce58e0b79d7d249633b39b0a383d32971f36018"
 
   url "https://github.com/hivetechs-collective/homebrew-tap/releases/download/v#{version}-beta/Hive-Consensus-#{version}.dmg"
   name "Hive Consensus Beta"
@@ -32,15 +32,12 @@ cask "hive-consensus-beta" do
   ]
 
   caveats <<~EOS
-    🧪 BETA RELEASE - Benchmark & Profile Fixes (v1.8.789)
+    BETA RELEASE - Claude Code YOLO Mode (v1.8.821)
 
     You're using the beta channel for Hive Consensus. This version includes:
-    - FIX: Benchmark fetchers with verified working URLs
-    - FIX: Cold-start cache invalidation and model diversity
-    - FIX: Gemini 3 Pro model ID for OpenRouter catalog
-    - FIX: INSERT OR REPLACE for fresh user profile creation
-    - Custom Profiles for personalized AI interactions
-    - Enhanced HiveTechs CLI with 342+ AI models
+    - NEW: Claude Code YOLO mode launch option (--dangerously-skip-permissions)
+    - Streamlined automated workflows with permission bypass
+    - All previous beta features and fixes
 
     All beta releases pass the same 9 quality gates as stable releases.
 
